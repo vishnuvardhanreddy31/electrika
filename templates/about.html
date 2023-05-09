@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{url_for('static',filename='about_styles.css')}}">
+  <title>Electrika</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+  rel="stylesheet" />
+<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='chat.ico') }}">
+
+
+<body>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="column1 column2">
+        <div class="about">
+          <h1>Electrika - Your Personal AI Chatbot</h1>
+          <p>With Electrika, you can:</p>
+          <ul>
+            <p class="para">Get instant help with your electronics homework or projects</p class="para">
+
+            <p class="para">Learn more about electronics concepts and theory</p class="para">
+
+            <p class="para">Automate repetitive tasks like calculating circuit parameters or finding component values</p
+              class="para">
+
+            <p class="para">Gather valuable insights about electronics topics that interest you</p class="para">
+          </ul>
+          <p>Electrika's advanced algorithms and natural language processing capabilities allow it to understand and
+            respond to electronics-related queries in a conversational and human-like manner. Whether you're a student
+            or
+            a hobbyist, Electrika can help you get the answers you need quickly and easily.</p>
+        </div>
+
+
+
+        <br>
+        <a href="{{ url_for('landing_page') }}"><button type="button" class="getstarted">Back</button></a>
+
+
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+
+</html>
